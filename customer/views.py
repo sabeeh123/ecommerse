@@ -9,3 +9,9 @@ def customer_cart(request):
 
 def customer_product_details(request):
     return render(request, 'customer_template/product_details.html')
+
+def customer_myorders(request):
+    return render(request,'customer templates/myorders.html')
+
+def customer_changepassword(render):
+    return render(request,'customer templates/changepassword.html')    
