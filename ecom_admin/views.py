@@ -15,4 +15,4 @@ def ecom_admin_seller(request):
     return render(request,'admin_templates/view_seller.html')      
 
 def ecom_admin_home(request):
-    return render(request,'admin_templates/home.html')    
+    return render(request,'admin_templates/view_home.html')
