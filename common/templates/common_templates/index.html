@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,5 +9,7 @@
 </head>
 <body>
   flipkart  
+  <img src="{% static 'images/code.jpg' %}" height="700px" width="700px">
+  <a href="{% url 'common:signup' %}">signup</a>
 </body>
 </html>
